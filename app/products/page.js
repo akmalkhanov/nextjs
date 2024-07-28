@@ -9,7 +9,7 @@ const page = async () => {
       {products.map((p) => (
         <div  key={p.id} className="bg-white rounded-xl">
           <div>
-            <img src={p.image} className="w-48 h-48 p-4 ml-12"/>
+            <img src={p.image} alt="" className="w-48 h-48 p-4 ml-12"/>
             <div className="py-6 text-center">
               <Link href={`/products/${p.id}`}>
                 <p className="font-bold text-indigo-400 text-xl">

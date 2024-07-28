@@ -10,7 +10,7 @@ const page = async ({ params }) => {
     <div className="flex justify-center">
       <div className="bg-white w-[750px] py-6 rounded-xl">
         <img
-          src={product.image}
+          src={product.image} alt=""
           className="w-64 h-64 ml-60"
         />
         <h2 className="text-2xl text-center mt-6 font-bold text-indigo-400">
